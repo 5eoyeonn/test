@@ -1,38 +1,68 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Song+Myung&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+
+body {
+  font-family: "Nanum Pen Script";
+  background-color: lightgoldenrodyellow;
+  line-height: 1.5;
+  font-weight: bolder;
+  margin-left : 50px;
+  }
+header {
   text-align: center;
+  font-size: 250px;
+  margin-bottom: 50px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#index{
+  font-size: 150px;
+  margin-left : 500px; 
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  display: grid;
+  grid-template-columns: 450px 1fr;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+nav {
+  font-family: "Nanum Pen Script";
+  margin-left: 20px;
+  font-size: 100px;
+}
+main{
+  font-family: "Nanum Pen Script";
+  margin-left: 20px;
+  background-color: lightgoldenrodyellow;
+  font-size: 70px;
+}
+footer {
+  text-align: center;
+  background-color: gray;
   color: white;
+  font-size: 100px;
+}
+a:link, a:visited {
+  background-color:#eeeeee; 
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  width:450px;
+  font-size: 1.5em;
+}
+a:hover, a:active { 
+  background-color: #FF4500; 
+  color:white ;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  font-family: "Nanum Pen Script";
+  background-color: blue;
+  color: white ;
+  padding: 10px 20px;
+  margin: 20px; 
+  font-size: 2em;
+  cursor: pointer;
+  transition-duration: 1s;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover {
+  background-color: orange;
+  color: white;
 }
