@@ -1,4 +1,3 @@
-
 const Python = () => {
   return (
     <div>
@@ -22,4 +21,4 @@ const Python = () => {
   );
 };
 
-export default Career3;
+export default Python;
