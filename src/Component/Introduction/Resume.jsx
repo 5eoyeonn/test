@@ -3,110 +3,28 @@ import '../CSS/Resume.css' ;
 const Resume = () => {
   return (
     <div id = "resume">
-	    <em>1.기초 자료</em>
+	    <h3>이력</h3>
+        <ul>
+          <li> 2021.3 가천대학교 자율전공학부 입학</li>
+          <li> 2022.3 가천대학교 컴퓨터공학과 전공선택 </li>
+          <li> 2023.1 - 초중고 소프트웨어 캠프 보조강사 활동 </li>
+        </ul>
 	    <table>
-		    <tr>
-			    <td  rowspan="6" >사 진</td>
-			    <td  bgcolor="#e3fcff">성 명</td>
-			    <td></td>
-  			  <td  bgcolor="#e3fcff">한 문</td>
-	  		  <td></td>
-	  	  </tr>
-		    <tr>
-  			  <td bgcolor="#e3fcff">주민등록번호</td>
-	  		  <td colspan="3"></td>
-  		  </tr>
-	  	  <tr>
-	  		  <td bgcolor="#e3fcff">E-mail</td>
-	  		  <td colspan="3"></td>
-	  	  </tr>
-	  	  <tr>
-	  		  <td bgcolor="#e3fcff">전화번호</td>
-	  		  <td></td>
-	  		  <td bgcolor="#e3fcff">휴대폰</td>
-	  		  <td></td>
-	  	  </tr>
-	  	  <tr>
-	  	  	<td bgcolor="#e3fcff">우편번호</td>
-	  	  	<td></td>	
-	  	  	<td bgcolor="#e3fcff">비상연락처</td>
-	  	  	<td></td>
-	  	  </tr>
-	  	  <tr>
-	  	  	<td bgcolor="#e3fcff">주소</td>
-	  	  	<td colspan="3"></td>
-	  	  </tr>	
-	    </table>
-
-      <em>2.학력사항</em>
-      <table>
-      <tr>
-	      <th bgcolor="#e3fcff">기간</th>
-	      <th bgcolor="#e3fcff">상세내용</th>
-	      <th bgcolor="#e3fcff">비고</th>
-      </tr>
-	    <tr>
-	  	  <td>초등학교</td> <td>00 초등학교</td> <td></td>
-	    </tr>
-	    <tr>
-	    	<td>중학교</td> <td>00 중학교</td> <td></td>
-	    </tr>
-	    <tr>
-	    	<td>고등학교</td>	<td>00 고등학교</td> <td></td>
-	    </tr>
-	    <tr>
-	    	<td>대학교 </td> <td>가천대학교</td> <td></td>
-	    </tr>
-    </table>
-
-    <em>3. 경력사항</em>
-    <table>
-      <tr>
-        <th bgcolor="#e3fcff">기간</th>
-		    <th bgcolor="#e3fcff">관련</th>
-      </tr>
-	    <tr>
-		   <td>~</td> <td></td>
-	    </tr>
-	    <tr>
-		   <td>~</td> <td></td>
-	    </tr>
-	    <tr>
-		   <td>~</td> <td></td>
-	    </tr>
-	    <tr>
-		   <td>~</td> <td></td>
-	    </tr>
-    </table>
-
-    <em>4. 개인능력 및 장단점</em>
-    <table>
-	    <tr height="30">
-	  	  <td rowspan="2" bgcolor="#e3fcff">자격증 및 포상</td>
-	  	  <td colspan="3">정보처리기사</td>
-	  	  <td colspan="1">한국산업인력공단</td>
-	    </tr>
-	    <tr height="30"> 
-        <td colspan="3">운전면허증</td>
-        <td colspan="1">경찰청</td>
-  	  </tr>
-  	  <tr height="30"> 
-        <td rowspan="2" bgcolor="#e3fcff">컴퓨터능력</td>
-  		  <td colspan="2"></td>
-        <td bgcolor="#e3fcff">상/중/하</td>
-      </tr>
-	    <tr height="30" > 
-		    <td colspan="2"></td>
-        <td bgcolor="#e3fcff">상/중/하</td>
-	  	  <td></td>
-      </tr>
-	    <tr height="30"> 
-		    <td rowspan="2" bgcolor="#e3fcff">취미</td>	
-		    <td colspan="2"></td>
-        <td bgcolor="#e3fcff">특기</td>
-		    <td></td>
-      </tr>
-    </table>
+			<tr><td>성 명</td><td>양서연</td><td>학 과</td><td>컴퓨터공학과</td></tr>
+			<tr><td>나 이</td><td>만 21 세</td><td>학 번</td><td>202137548</td></tr>
+			<tr>출신학교</tr>
+			<tr><td>중학교</td><td>강명중학교</td></tr>
+			<tr><td>고등학교</td><td>강일고등학교</td></tr>
+			<tr><td>대학교</td><td>가천대학교</td></tr>
+		</table>
+		<h3>
+			아르바이트 등 경력
+		</h3>
+		<table>
+			<tr><td>미술 전시관</td><td>2022.7 - 2022.12</td></tr>
+			<tr><td>영어학원</td><td>2023.3 - 2023.9</td></tr>
+			<tr><td>코딩교육</td><td>2023.1 - </td></tr>
+		</table>
 
 		<div id="pledge">
 			<br/>위의 사실이 틀림이 없음을 서약합니다.<br/>
